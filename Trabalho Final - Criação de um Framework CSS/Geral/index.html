@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/grid.css" rel="stylesheet">
+        <link href="css/input.css" rel="stylesheet">
+        <link href="css/menu.css" rel="stylesheet">
+        <link href="css/post.css" rel="stylesheet">
+        <link href="css/botoes.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>            
+            <h1>Trabalho Final</h1>
+        </header>
+
+        <main>            
+            <section>
+                <article>
+                    <h2>Table Grid</h2>
+                    <p>Esse componente é um Grid responsivo que permite alterações das cores dos títulos e adiciona uma seta de ordenação da primeira coluna.</p>
+
+                    <div class="example">
+                        <section class="section">
+                            <div class="container">        
+                                <h3 class="table-title table-title-blue table-title-radius">Lista de Clientes</h3>
+                                <table class="table table-bordered table-striped table-hoverable table-sm" cellspacing="0" cellpadding="0">                    
+                                    <thead class="thead thead-gray-gradient">
+                                        <tr>
+                                            <th class="arrow-down">Código</th>
+                                            <th>Nome</th>
+                                            <th>Nascimento</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="table-col-center">1</td>
+                                            <td>João da Silva</td>
+                                            <td>01/01/1990</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table-col-center">2</td>
+                                            <td>Maria da Silva</td>
+                                            <td>01/01/1980</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table-col-center">3</td>
+                                            <td>Joaquim</td>
+                                            <td>01/01/1982</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table-col-center">4</td>
+                                            <td>Ronaldo da Silva</td>
+                                            <td>01/01/1974</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>    
+                    </div>
+
+                    
+                    <div class="font">
+                        <code>
+                            <xmp>
+<section class="section">
+    <div class="container">        
+        <h3 class="table-title table-title-blue table-title-radius">Lista de Clientes</h3>
+        <table class="table table-bordered table-striped table-hoverable table-sm" cellspacing="0" cellpadding="0">                    
+            <thead class="thead thead-gray-gradient">
+                <tr>
+                    <th class="arrow-down">Código</th>
+                    <th>Nome</th>
+                    <th>Nascimento</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="table-col-center">1</td>
+                    <td>João da Silva</td>
+                    <td>01/01/1990</td>
+                </tr>
+                <tr>
+                    <td class="table-col-center">2</td>
+                    <td>Maria da Silva</td>
+                    <td>01/01/1980</td>
+                </tr>
+                <tr>
+                    <td class="table-col-center">3</td>
+                    <td>Joaquim</td>
+                    <td>01/01/1982</td>
+                </tr>
+                <tr>
+                    <td class="table-col-center">4</td>
+                    <td>Ronaldo da Silva</td>
+                    <td>01/01/1974</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+                            </xmp>
+                        </code>
+                    </div>
+                </article>
+
+                <article>
+                    <p>Para trocar a cor do título "Lista de Clientes" utilize as classes <b>"table-title-green"</b>, <b>"table-title-blue"</b> e <b>"table-title-gray"</b>.</p>
+
+                    <div class="example">
+                        <section class="section">
+                            <div class="container">        
+                                <h3 class="table-title table-title-green table-title-radius">Lista de Clientes</h3>
+                                <table class="table table-bordered table-striped table-hoverable table-sm" cellspacing="0" cellpadding="0">                    
+                                    <thead class="thead thead-gray-gradient">
+                                        <tr>
+                                            <th class="arrow-down">Código</th>
+                                            <th>Nome</th>
+                                            <th>Nascimento</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="table-col-center">1</td>
+                                            <td>João da Silva</td>
+                                            <td>01/01/1990</td>
+                                        </tr>                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>    
+                    </div>
+
+                    
+                    <div class="font">
+                        <code>
+                            <xmp>
+<h3 class="table-title table-title-radius table-title-green">Lista de Clientes</h3>
+
+<h3 class="table-title table-title-radius table-title-blue">Lista de Clientes</h3>
+
+<h3 class="table-title table-title-radius table-title-gray">Lista de Clientes</h3>
+                            </xmp>
+                        </code>
+                    </div>
+                </article>
+
+<article>
+                    <p>Para utilizar ou não a borda arredondada do título "Lista de Clientes" utilize a classe <b>"table-title-radius"</b> ou <b>"table-title"</b>.</p>
+
+                    <div class="example">
+                        <section class="section">
+                            <div class="container">        
+                                <h3 class="table-title table-title-blue table-title">Lista de Clientes</h3>
+                                <table class="table table-bordered table-striped table-hoverable table-sm" cellspacing="0" cellpadding="0">                    
+                                    <thead class="thead thead-gray-gradient">
+                                        <tr>
+                                            <th class="arrow-down">Código</th>
+                                            <th>Nome</th>
+                                            <th>Nascimento</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="table-col-center">1</td>
+                                            <td>João da Silva</td>
+                                            <td>01/01/1990</td>
+                                        </tr>                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>    
+                    </div>
+
+                    
+                    <div class="font">
+                        <code>
+                            <xmp>
+<h3 class="table-title table-title-green table-title">Lista de Clientes</h3>
+
+<h3 class="table-title table-title-green table-title-radius">Lista de Clientes</h3>
+                            </xmp>
+                        </code>
+                    </div>
+                </article>
+
+                 <article>
+                    <p>Para trocar a cor do título das colunas utilize as classes <b>"thead-gray"</b> e <b>"thead-gray-gradient"</b></p>
+
+                    <div class="example">
+                        <section class="section">
+                            <div class="container">        
+                                <h3 class="table-title table-title-blue table-title-radius">Lista de Clientes</h3>
+                                <table class="table table-bordered table-striped table-hoverable table-sm" cellspacing="0" cellpadding="0">                    
+                                    <thead class="thead thead-gray">
+                                        <tr>
+                                            <th class="arrow-down">Código</th>
+                                            <th>Nome</th>
+                                            <th>Nascimento</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="table-col-center">1</td>
+                                            <td>João da Silva</td>
+                                            <td>01/01/1990</td>
+                                        </tr>                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>    
+                    </div>
+
+                    
+                    <div class="font">
+                        <code>
+                            <xmp>
+<thead class="thead thead-gray">
+
+<thead class="thead thead-gray-gradient">
+                            </xmp>
+                        </code>
+                    </div>
+                </article>
+
+                <article>
+                    <p>Para adicionar ou remover a seta da primeira coluna utilise as classes <b>"arrow-down"</b> e <b>"arrow-up"</b></p>
+
+                    <div class="example">
+                        <section class="section">
+                            <div class="container">        
+                                <h3 class="table-title table-title-blue table-title-radius">Lista de Clientes</h3>
+                                <table class="table table-bordered table-striped table-hoverable table-sm" cellspacing="0" cellpadding="0">                    
+                                    <thead class="thead thead-gray-gradient">
+                                        <tr>
+                                            <th class="arrow-down">Código</th>
+                                            <th>Nome</th>
+                                            <th>Nascimento</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="table-col-center">1</td>
+                                            <td>João da Silva</td>
+                                            <td>01/01/1990</td>
+                                        </tr>                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>    
+                    </div>
+
+                    
+                    <div class="font">
+                        <code>
+                            <xmp>
+<th class="arrow-down">Código</th>
+
+<th class="arrow-up">Código</th>
+                            </xmp>
+                        </code>
+                    </div>
+                </article>
+
+                <article>
+                  <h2>Input</h2>
+                  <p>Esse componente é um input personalizado que permite alterações de cor e tamanho dos mesmos.</p>
+
+                  <div class="example">
+                      <section class="section">
+                          <div class="container">
+                            <div class="input-group">
+                              <input class="input-default" placeholder="Nome"/>
+                            </div>
+                          </div>
+                      </section>
+                  </div>
+
+
+                  <div class="font">
+                      <code>
+                          <xmp>
+<div class="input-group">
+  <input class="input-default" placeholder="Nome"/>
+</div>
+                          </xmp>
+                      </code>
+                  </div>
+              </article>
+
+                <article>
+                    <p>Para utilizar as variações de cores acrescente as tags <b>"input-black"</b>, <b>"input-red"</b>, <b>"input-yellow"</b> ou <b>"input-green"</b> após a declaração do <b>"input-default"</b>.</p>
+                    <p>Dessa forma, a cor da tag adicionada será adicionada ao componente: </p>
+
+                    <div class="example">
+                        <section class="section">
+                            <div class="container">
+                              <div class="input-group">
+                                <input class="input-default input-black" placeholder="Telefone" />
+                                <input class="input-default input-red" placeholder="Endereço"/>
+                                <input class="input-default input-yellow" placeholder="Número"/>
+                                <input class="input-default input-green" placeholder="Complemento"/>
+                              </div>
+                            </div>
+                        </section>
+                    </div>
+
+
+                    <div class="font">
+                        <code>
+                            <xmp>
+<div class="input-group">
+  <input class="input-default input-black" placeholder="Telefone"/>
+  <input class="input-default input-red" placeholder="Endereço"/>
+  <input class="input-default input-yellow" placeholder="Número"/>
+  <input class="input-default input-green" placeholder="Complemento"/>
+</div>
+                            </xmp>
+                        </code>
+                    </div>
+                </article>
+
+                <article>
+                    <p>Também é possível adicionar um input com um tamanho maior.</p>
+                    <p>Para utilizá-lo basta acrescentar a tag <b>"input-medium"</b> ao invés do <b>"input-default"</b>.</p>
+                    <p><b>Observação: </b> Para variações de cores o tipo médio funciona da mesma forma que o tipo default!</p>
+
+                    <div class="example">
+                        <section class="section">
+                            <div class="container">
+                              <div class="input-group">
+                                <input class="input-medium" placeholder="Telefone" />
+                                <input class="input-medium input-black" placeholder="Endereço"/>
+                                <input class="input-medium input-green" placeholder="Complemento"/>
+                              </div>
+                            </div>
+                        </section>
+                    </div>
+
+
+                    <div class="font">
+                        <code>
+                            <xmp>
+<div class="input-group">
+  <input class="input-medium" placeholder="Telefone" />
+  <input class="input-medium input-black" placeholder="Endereço"/>
+  <input class="input-medium input-green" placeholder="Complemento"/>
+</div>
+                            </xmp>
+                        </code>
+                    </div>
+
+                    <p>• Funciona para <b>todos</b> os tipos de input, não é ligado especificamente com types "text" ou qualquer outro. Use sem moderação!</p>
+                </article>
+
+                <article>
+                <h2>Menu</h2>
+                <p>Esse componente é um Menu Dropdown horizontal com a possibilidade de utilização de vários níveis hierárquicos.</p>
+
+                <div class="example">
+                    <nav class="menu menu-silver">
+                        <ul>
+                            <li><a href="#">Menu 0</a></li>
+                            <li><a href="#" class="menu-arrow-down">Menu 1</a>
+                                <ul>
+                                    <li><a href="#">Menu 1.1</a></li>
+                                    <li><a href="#">Menu 1.2</a></li>
+                                    <li><a href="#">Menu 1.3</a></li>
+                                    <li><a href="#" class="menu-arrow-right">Menu 1.4</a>
+                                        <ul>
+                                            <li><a href="#" class="menu-arrow-right">Menu 1.4.1</a>
+                                                <ul>
+                                                    <li><a href="#">Menu 1.4.1.1</a></li>
+                                                    <li><a href="#">Menu 1.4.1.2</a></li>
+                                                    <li><a href="#">Menu 1.4.1.3</a></li>
+                                                    <li><a href="#" class="menu-arrow-right">Menu 1.4.1.4</a>
+                                                        <ul>
+                                                            <li><a href="#">Menu 1.4.1.4.1</a></li>
+                                                            <li><a href="#">Menu 1.4.1.4.2</a></li>
+                                                            <li><a href="#">Menu 1.4.1.4.3</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Menu 1.4.1</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Menu 1.5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="menu-arrow-down">Menu 2</a>
+                                <ul>
+                                    <li><a href="#">Menu 2.1</a></li>
+                                    <li><a href="#">Menu 2.2</a></li>
+                                    <li><a href="#">Menu 2.3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="menu-arrow-down">Menu 3</a>
+                                <ul>
+                                    <li><a href="#">Menu 3.1</a></li>
+                                    <li><a href="#" class="menu-arrow-right">Menu 3.2</a>
+                                        <ul>
+                                            <li><a href="#">Menu 3.2.1</a></li>
+                                            <li><a href="#">Menu 3.2.2</a></li>
+                                            <li><a href="#">Menu 3.2.3</a></li>
+                                            <li><a href="#">Menu 3.2.4</a></li>
+                                            <li><a href="#">Menu 3.2.5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Menu 3.3</a></li>
+                                    <li><a href="#">Menu 3.4</a></li>
+                                    <li><a href="#">Menu 3.5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Menu 4</a></li>
+                            <li><a href="#">Menu 5</a></li>
+                            <li><a href="#">Menu 6</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div class="font">
+                    <code>
+                            <xmp>
+<nav class="menu">
+    <ul>
+        <li><a href="#">Menu 0</a></li>
+        <li><a href="#" class="menu-arrow-down">Menu 1</a>
+            <ul>
+                <li><a href="#">Menu 1.1</a></li>
+                <li><a href="#">Menu 1.2</a></li>
+                <li><a href="#">Menu 1.3</a></li>
+                <li><a href="#" class="menu-arrow-right">Menu 1.4</a>
+                    <ul>
+                        <li><a href="#" class="menu-arrow-right">Menu 1.4.1</a>
+                            <ul>
+                                <li><a href="#">Menu 1.4.1.1</a></li>
+                                <li><a href="#">Menu 1.4.1.2</a></li>
+                                <li><a href="#">Menu 1.4.1.3</a></li>
+                                <li><a href="#" class="menu-arrow-right">Menu 1.4.1.4</a>
+                                    <ul>
+                                        <li><a href="#">Menu 1.4.1.4.1</a></li>
+                                        <li><a href="#">Menu 1.4.1.4.2</a></li>
+                                        <li><a href="#">Menu 1.4.1.4.3</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Menu 1.4.1</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Menu 1.5</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="menu-arrow-down">Menu 2</a>
+            <ul>
+                <li><a href="#">Menu 2.1</a></li>
+                <li><a href="#">Menu 2.2</a></li>
+                <li><a href="#">Menu 2.3</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="menu-arrow-down">Menu 3</a>
+            <ul>
+                <li><a href="#">Menu 3.1</a></li>
+                <li><a href="#" class="menu-arrow-right">Menu 3.2</a>
+                    <ul>
+                        <li><a href="#">Menu 3.2.1</a></li>
+                        <li><a href="#">Menu 3.2.2</a></li>
+                        <li><a href="#">Menu 3.2.3</a></li>
+                        <li><a href="#">Menu 3.2.4</a></li>
+                        <li><a href="#">Menu 3.2.5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Menu 3.3</a></li>
+                <li><a href="#">Menu 3.4</a></li>
+                <li><a href="#">Menu 3.5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Menu 4</a></li>
+        <li><a href="#">Menu 5</a></li>
+        <li><a href="#">Menu 6</a></li>
+    </ul>
+</nav>
+                            </xmp>
+                        </code>
+                </div>
+            </article>
+
+            <article>
+                <p>Personalize o menu adicionando as setas direcionais com as classe <b>"menu-arrow-down"</b> (seta para baixo) e <b>"menu-arrow-right"</b> (seta para direita)  </p>
+
+                <div class="example">
+                    <nav class="menu menu-silver">
+                        <ul>
+                            <li><a href="#">Menu 0</a></li>
+                            <li><a href="#" class="menu-arrow-down">Menu 1</a>
+                                <ul>
+                                    <li><a href="#">Menu 1.1</a></li>
+                                    <li><a href="#" class="menu-arrow-right">Menu 1.2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div class="font">
+                    <code>
+                            <xmp>
+<li><a href="#" class="menu-arrow-down">Menu 1</a>
+<li><a href="#" class="menu-arrow-right">Menu 1</a>
+                            </xmp>
+                        </code>
+                </div>
+            </article>
+
+            <article>
+                <p>Personalize as cores de fundo do menu utilizando as classes <b>"menu-silver"</b>, <b>"menu-blue"</b> e <b>"menu-greenyellow"</b> </p>
+
+                <div class="example">
+                    <nav class="menu menu-blue">
+                        <ul>
+                            <li><a href="#">Menu 0</a></li>
+                            <li><a href="#" class="menu-arrow-down">Menu 1</a>
+                                <ul>
+                                    <li><a href="#">Menu 1.1</a></li>
+                                    <li><a href="#">Menu 1.2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div class="font">
+                    <code>
+                            <xmp>
+<nav class="menu menu-blue">
+                            </xmp>
+                        </code>
+                </div>
+            </article>
+
+            <article>
+                <p>Personalize o tamanho do menu utilizando as classes <b>"menu-big"</b>, <b>"menu-small"</b> </p>
+
+                <div class="example">
+                    <nav class="menu menu-silver menu-big">
+                        <ul>
+                            <li><a href="#">Menu 0</a></li>
+                            <li><a href="#" class="menu-arrow-down">Menu 1</a>
+                                <ul>
+                                    <li><a href="#">Menu 1.1</a></li>
+                                    <li><a href="#">Menu 1.2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div class="font">
+                    <code>
+                            <xmp>
+<nav class="menu menu-big"> 
+<nav class="menu menu-small">
+                            </xmp>
+                        </code>
+                </div>
+            </article>
+
+            <article>
+                    <h2>Post Forum</h2>
+                    <p>Esse componente é um Post responsivo que permite o usuário criar um mensagem</p>
+
+                    <section class="post">
+                        <section class="member">
+                            <aside class="image-member">
+                                <div class="matheus">
+                                </div>
+                                <aside class="member-name-radius">
+                                    Matheus
+                                </aside>
+                            </aside>
+                        </section>
+                        <article class="member-topic">
+                            <span class="member-topic-title">Olá to precisando de uma ajuda em um trabalho pra quem manja em C</span>
+                        </article>
+                        <aside class="message-post">
+                           <span class="message-post-message">
+                                B8) Faça um programa que seja capaz de resolver problemas de Física, ou seja,
+                                Movimento Uniforme - MU.
+                                Entrada: O usuário deverá entrar com duas informações das três possíveis, ou seja:
+                           </span>
+                        </aside>
+                    </section>
+                    <section class="post">
+                        <section class="member">
+                            <aside class="image-member">
+                                <div class="elias">
+                                </div>
+                                <aside class="member-name-radius gray">
+                                    Elias
+                                </aside>
+                            </aside>
+                        </section>
+                        <article class="member-topic gray">
+                            <span class="member-topic-title">RE: Ajuda em C</span>
+                        </article>
+                        <aside class="message-post silver">
+                           <span class="message-post-message">
+                                Não espera que alguém faça o exercício para você, espera?
+
+                                Poste o que já conseguiu
+                           </span>
+                        </aside>
+                    </section>
+                    <section class="post">
+                        <section class="member">
+                            <aside class="image-member">
+                                <div class="maria">
+                                </div>
+                                <aside class="member-name-radius purple">
+                                    Maria
+                                </aside>
+                            </aside>
+                        </section>
+                        <article class="member-topic purple">
+                            <span class="member-topic-title">RE: Ajuda em C</span>
+                        </article>
+                        <aside class="message-post pink">
+                           <span class="message-post-message">
+                                Veja se isso funciona.
+                                do{
+                                printf("\n ********** MENU **********\n");
+                                printf("\n 1 - Calcular o espaço percorrido e fazer as devidas conversões com as unidades de medida");
+                                printf("\n 2 - Calcular o tempo gasto num percurso e fazer as devidas conversões com as unidades de medida");
+                                printf("\n 3 - Calcular a velocidade média e fazer as devidas conversões com as unidades de medida");
+                                printf("\n 4 - Sair\n");
+                                printf("\n # Digite o numero da opcao desejada: ");
+                                scanf("%d",&op);
+                           </span>
+                        </aside>
+                    </section>
+
+                    
+                    <div class="font">
+                        <code>
+                            <xmp>
+<section class="post">
+    <section class="member">
+        <aside class="image-member">
+            <div class="matheus">
+            </div>
+            <aside class="member-name-radius">
+                Matheus
+            </aside>
+        </aside>
+    </section>
+    <article class="member-topic">
+        <span class="member-topic-title">Olá to precisando de uma ajuda em um trabalho pra quem manja em C</span>
+    </article>
+    <aside class="message-post">
+        <span class="message-post-message">
+            B8) Faça um programa que seja capaz de resolver problemas de Física, ou seja,
+            Movimento Uniforme - MU.
+            Entrada: O usuário deverá entrar com duas informações das três possíveis, ou seja:
+        </span>
+    </aside>
+</section>
+
+                            </xmp>
+                        </code>
+                    </div>
+                </article>
+
+                <article>
+                    <p>Com esse componente é possivel trocar a cor do título "Titudo do POST" utilize as classes <b>"member-topic gray"</b> e <b>"member-topic purple"</b> ou o padrão <b>"member-topic"</b></p>
+                    <p> No exemplo abaixo utilizamos a cor <b>Gray</b>.</p>
+
+
+                        <section class="post">
+                            <section class="member">
+                                <aside class="image-member">
+                                    <div class="elias">
+                                    </div>
+                                    <aside class="member-name-radius gray">
+                                        Elias
+                                    </aside>
+                                </aside>
+                            </section>
+                            <article class="member-topic gray">
+                                <span class="member-topic-title">RE: Ajuda em C</span>
+                            </article>
+                            <aside class="message-post silver">
+                           <span class="message-post-message">
+                                Não espera que alguém faça o exercício para você, espera?
+
+                                Poste o que já conseguiu
+                           </span>
+                            </aside>
+                        </section>
+                    </div>
+
+                    <p>Você pode também trocar a cor da mensagem e o fundo do nome do membro, para isso basta alterar as tags <b>"message-post silver"</b> para <b>"message-post pink"</b> e o padrão  <b>"message-post"</b> para a mensagem.</p>
+                    <p>Para o fundo do nome, utilize <b>"member-name-radius gray"</b>,<b>"member-name-radius purple"</b> ou o padrão que é <b>"member-name-radius"</b> em azul.  </p>
+                    <section class="post">
+                        <section class="member">
+                            <aside class="image-member">
+                                <div class="matheus">
+                                </div>
+                                <aside class="member-name-radius purple">
+                                    Matheus
+                                </aside>
+                            </aside>
+                        </section>
+                        <article class="member-topic">
+                            <span class="member-topic-title">Olá to precisando de uma ajuda em um trabalho pra quem manja em C</span>
+                        </article>
+                        <aside class="message-post pink">
+                           <span class="message-post-message">
+                                B8) Faça um programa que seja capaz de resolver problemas de Física, ou seja,
+                                Movimento Uniforme - MU.
+                                Entrada: O usuário deverá entrar com duas informações das três possíveis, ou seja:
+                           </span>
+                        </aside>
+                    </section>
+                    <p>Para trocar a Imagem você pode substituir o valor da tag <b>div class="elias"</b> para <b>Matheus</b> ou <b>Maria.</b></p>
+                    <div class="font">
+                        <code>
+                            <xmp>
+<aside class="image-member">
+    <div class="matheus">
+<aside class="image-member">
+    <div class="maria">
+<aside class="image-member">
+    <div class="elias">
+                            </xmp>
+                        </code>
+                    </div>
+                    <section class="post">
+                        <section class="member">
+                            <aside class="image-member">
+                                <div class="maria">
+                                </div>
+                                <aside class="member-name-radius gray">
+                                    Maria
+                                </aside>
+                            </aside>
+                        </section>
+                        <article class="member-topic gray">
+                            <span class="member-topic-title">RE: Ajuda em C</span>
+                        </article>
+                        <aside class="message-post silver">
+                           <span class="message-post-message">
+                                Não espera que alguém faça o exercício para você, espera?
+
+                                Poste o que já conseguiu
+                           </span>
+                        </aside>
+                    </section>
+                    </div>
+                </article>            
+
+<article>
+                    <h3>Botões</h3>
+                    <p>Componente simples de botões, com 3 (três) opções de tamanho  e opção de tela cheia. Há também opções e variações de cores.</p>
+                    <div class="example">
+                        <section class="section">
+                            <div class="container">
+                                <section>
+                                    <article>
+                                        <label> Os botões possuem 3 tamanhos, com as respectivas classes pequeno (.sm), medio (.md) e grande (.lg) </label>
+                                    </article>
+
+                                    <article style="margin-top: 2%">
+                                        <button class="btn btn-sm btn-info">Pequeno</button>
+                                        <button class="btn btn-md btn-info">Médio</button>
+                                        <button class="btn btn-lg btn-info">Grande</button>
+
+                                        <div class="font"  style="margin-top: 2%; text-align: left">
+                                            <code>
+                                                <xmp>
+<button class="btn btn-sm btn-info">Pequeno</button>
+<button class="btn btn-md btn-info">Médio</button>
+<button class="btn btn-lg btn-info">Grande</button>
+                                                </xmp>
+                                            </code>
+                                        </div>
+                                    </article>
+
+                                    <br>
+
+                                    <article>
+                                        <label> Os botões possuem 5 tipos com as seguintes classes: </label> <br>
+                                        <ul>
+                                            <li>.btn-default</li>
+                                            <li>.btn-info</li>
+                                            <li>.btn-success</li>
+                                            <li>.btn-warning</li>
+                                            <li>.btn-danger</li>
+                                        </ul>
+                                    </article>
+
+
+                                    <article style="margin-top: 2%">
+                                        <button class="btn btn-lg btn-default">Padrão</button>
+                                        <button class="btn btn-lg btn-info">Informação</button>
+                                        <button class="btn btn-lg btn-success">Sucesso</button>
+                                        <button class="btn btn-lg btn-warning">Alerta</button>
+                                        <button class="btn btn-lg btn-danger">Erro</button>
+
+                                        <div class="font"  style="margin-top: 2%; text-align: left">
+                                            <code>
+                                                <xmp>
+<button class="btn btn-lg btn-default">Padrão</button>
+<button class="btn btn-lg btn-info">Informação</button>
+<button class="btn btn-lg btn-success">Sucesso</button>
+<button class="btn btn-lg btn-warning">Alerta</button>
+<button class="btn btn-lg btn-danger">Erro</button>
+                                                </xmp>
+                                            </code>
+                                        </div>
+                                    </article>
+
+                                    <article style="margin-top: 2%">
+                                        <label> As bordas também pode ser alteradas utilizando as classes: </label>
+                                        <ul>
+                                            <li>.btn-radius</li>
+                                            <li>.btn-leaf</li>
+                                        </ul>
+                                    </article>
+
+                                    <article style="margin-top: 2%">
+                                        <button class="btn btn-warning btn-lg btn-radius">Sucesso</button>
+                                        <button class="btn btn-warning btn-md btn-leaf">Sucesso</button>
+
+                                        <div class="font"  style="margin-top: 2%; text-align: left">
+                                            <code>
+                                                <xmp>
+<button class="btn btn-warning btn-lg btn-radius">Sucesso</button>
+<button class="btn btn-warning btn-md btn-leaf">Sucesso</button>
+                                                </xmp>
+                                            </code>
+                                        </div>
+                                    </article>
+
+
+                                    <article style="margin-top: 2%">
+                                        <label> Há também a opção de colocar o botão em todo o espaço (width) do componente pai utilizando a classe .btn-full-screen </label>
+                                    </article>
+
+                                    <article style="margin-top: 2%">
+                                        <button class="btn btn-lg btn-success btn-radius btn-full-screen">Botão Success Linha Inteira</button> <br><br>
+                                        <button class="btn btn-lg btn-info btn-radius btn-full-screen">Botão Info Linha Inteira</button>
+
+                                        <div class="font"  style="margin-top: 2%; text-align: left">
+                                            <code>
+                                                <xmp>
+<button class="btn btn-lg btn-success btn-radius btn-full-screen">Botão Success Linha Inteira</button>
+<button class="btn btn-lg btn-info btn-radius btn-full-screen">Botão Info Linha Inteira</button>
+                                                </xmp>
+                                            </code>
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+            </section>
+
+            <section>
+                <article>
+                    <h3>Select</h3>
+                    <p>São oferecidas 3 opções de select:</p>
+                    <div class="example">
+                        <section class="section">
+                            <div class="container">
+                                <section>
+                                    <article>
+                                        <label> Select Normal, classe (.combo) </label> <br><br>
+                                        <select class="combo">
+                                            <option value="Option01">Opção 01</option>
+                                            <option value="Option02">Opção 02</option>
+                                            <option value="Option03">Opção 03</option>
+                                            <option value="Option04">Opção 04</option>
+                                            <option value="Option05">Opção 05</option>
+                                        </select>
+
+                                        <div class="font"  style="margin-top: 2%; text-align: left">
+                                            <code>
+                                                <xmp>
+<select class="combo">
+   <option value="Option01">Opção 01</option>
+   <option value="Option02">Opção 02</option>
+   <option value="Option03">Opção 03</option>
+   <option value="Option04">Opção 04</option>
+   <option value="Option05">Opção 05</option>
+</select>
+                                                </xmp>
+                                            </code>
+                                        </div>
+                                    </article>
+
+                                    <article style="margin-top: 2%">
+                                        <label> Select com Borda, classe (.combo-radius) </label> <br><br>
+                                        <select class="combo combo-radius">
+                                            <option value="Option01">Opção 01</option>
+                                            <option value="Option02">Opção 02</option>
+                                            <option value="Option03">Opção 03</option>
+                                            <option value="Option04">Opção 04</option>
+                                            <option value="Option05">Opção 05</option>
+                                        </select>
+
+                                        <div class="font"  style="margin-top: 2%; text-align: left">
+                                            <code>
+                                                <xmp>
+<select class="combo combo-radius">
+   <option value="Option01">Opção 01</option>
+   <option value="Option02">Opção 02</option>
+   <option value="Option03">Opção 03</option>
+   <option value="Option04">Opção 04</option>
+   <option value="Option05">Opção 05</option>
+</select>
+                                                </xmp>
+                                            </code>
+                                        </div>
+                                    </article>
+
+                                    <article style="margin-top: 2%">
+                                        <label> Select tela cheia do tamanho (width) do elemento pai:, classe (.combo-full-screen) </label> <br><br>
+                                        <select class="combo combo-full-screen">
+                                            <option value="Option01">Opção 01</option>
+                                            <option value="Option02">Opção 02</option>
+                                            <option value="Option03">Opção 03</option>
+                                            <option value="Option04">Opção 04</option>
+                                            <option value="Option05">Opção 05</option>
+                                        </select>
+
+                                        <div class="font"  style="margin-top: 2%; text-align: left">
+                                            <code>
+                                                <xmp>
+<select class="combo combo-full-screen">
+   <option value="Option01">Opção 01</option>
+   <option value="Option02">Opção 02</option>
+   <option value="Option03">Opção 03</option>
+   <option value="Option04">Opção 04</option>
+   <option value="Option05">Opção 05</option>
+</select>
+                                                </xmp>
+                                            </code>
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+            
+            </section>
+        </main> 
+        <footer>
+            
+        </footer>   
+    </body>    
+</html>

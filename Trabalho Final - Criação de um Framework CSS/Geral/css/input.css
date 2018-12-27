@@ -1,0 +1,73 @@
+.input-group {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.input-default {
+  height: auto;
+  min-height: 25px;
+  width: 98%;
+  margin-bottom: 10px;
+  padding: 3px;
+  vertical-align: middle;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.input-medium {
+  font-size: 12pt;
+  height: auto;
+  min-height: 35px;
+  width: 98%;
+  margin-bottom: 10px;
+  padding: 3px;
+  vertical-align: middle;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.input-black {
+  color: white;
+  background-color: black;
+  border-width: 0px;
+  padding: 4px;
+}
+
+.input-red {
+  color: white;
+  background-color: #FF4500;
+  border-width: 0px;
+  padding: 4px;
+}
+
+.input-green {
+  color: black ;
+  background-color: #00FA9A;
+  border-width: 0px;
+  padding: 4px;
+}
+
+.input-yellow {
+  color: black;
+  background-color: #EEEE00;
+  border-width: 0px;
+  padding: 4px;
+}
+
+.input-green::placeholder {
+  color: #F8F8FF;
+  opacity: 0.8;
+}
+
+.input-red::placeholder {
+  color: #F8F8FF;
+  opacity: 0.8;
+}
+
+.input-yellow::placeholder {
+  color: #708090;
+  opacity: 0.8;
+}

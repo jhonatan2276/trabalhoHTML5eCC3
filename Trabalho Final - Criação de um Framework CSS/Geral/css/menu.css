@@ -1,0 +1,123 @@
+        /* nav */
+        .menu {
+            margin-top: 15px;            
+        }
+
+        /* formata todos os níveis tirando ponto do <li> e exibindo in line*/
+        .menu ul {
+            list-style: none;
+            position: relative;
+            display: inline-flex;
+            margin: 0;
+            padding: 0;                        
+        }
+        
+        /* formata todos os links tirando style de link */
+        .menu ul a {            
+            color: #000000;
+            text-decoration: none;
+            line-height: 32px;
+            padding: 0 15px;            
+        }                 
+
+        /* formata todos <li> */
+        .menu ul li {            
+            position: relative;
+            display: inline-flex;
+            margin: 0;
+            padding: 0;            
+        }
+
+        /* sub nível de um nível*/
+        .menu ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 0;
+        }
+        
+        /* itens do sub nível de um nível */
+        .menu ul ul li {
+            width: 200px;                        
+        }
+
+        /* links dos itens do sub nível de um nível*/
+        .menu ul ul a {
+            line-height: 120%;
+            padding: 10px 15px
+        }
+
+        /* Próximo Nível do sub nível e assim vai... */
+        .menu ul ul ul {
+            top: 0;
+            left: 100%
+        }
+
+        /* Controla as exibição dos níveis  */
+        .menu ul li:hover > ul {
+            display: list-item;
+        }
+
+        /* Exibe uma setinha apontando para baixo depois de alguma coisa*/
+        .menu-arrow-down:after {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-top: 7px solid #000000;
+        }
+
+        /* Exibe uma setinha apontando para a direita depois de alguma coisa*/
+        .menu-arrow-right:after {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;          
+            margin-left: 10px;
+            border-top: 7px solid transparent;
+            border-bottom: 7px solid transparent;
+            border-left: 7px solid #000000;
+        }
+
+         /* skins */
+        .menu-silver ul li {              
+            background-color: silver;
+        }
+
+        .menu-silver ul li:hover {
+            background-color: gray;
+        }
+
+        .menu-greenyellow ul li { 
+            background-color: greenyellow;
+        }
+
+        .menu-greenyellow ul li:hover {
+            background-color: yellow;
+        }
+
+        .menu-blue ul li { 
+            background-color: #32B6E8;
+        }     
+
+        .menu-blue ul li:hover {
+            background-color: #0F61A3;
+        }
+
+        .menu-big ul a {
+            font-size: 24px;
+        } 
+
+        .menu-big ul ul li {
+            width: 300px;
+        }
+
+        .menu-small ul a {
+            font-size: 12px;
+        }   
+
+        .menu-small ul ul li {
+            width: 150px;
+        }

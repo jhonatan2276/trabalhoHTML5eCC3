@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Final - Home</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <main class="container-fluid">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menuTopo" aria-controls="menuTopo" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <img src="imagens/logo-unidavi.png" width="150" height="60" class="d-inline-block">
+
+            <div class="collapse navbar-collapse" id="menuTopo">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+
+        <section class="card central">
+            <article class="card-block">
+                <h4 class="card-title">Cadastro Completo</h4>
+                <h6 class="card-subtitle">Informe os Dados::</h6>
+
+                <article>
+                    <form action="#" method="post" class="form-group" id="formulario">
+                        <div class="row primeiraLinhaGrid">
+                            <div class="col-md-6 col-lg-6 colunaGrid">
+                                <label for="cadNome">Nome:</label>
+                                <input type="text" name="nome" id="cadNome" class="form-control" placeholder="Nome">
+                            </div>
+                            <div class="col-md-6 col-lg-6 colunaGrid">
+                                <label for="cadEmail">Email:</label>
+                                <input type="text" name="email" id="cadEmail" class="form-control" placeholder="exemplo@exemplo.com">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3 colunaGrid">
+                                <label for="cadTelefone">Telefone (8 ou 9 digitos):</label>
+                                <input type="tel" name="telefone" id="cadTelefone" class="form-control" placeholder="(00)0000[0]-0000">
+                            </div>
+                            <div class="col-md-6 col-lg-2 colunaGrid">
+                                    <label for="cadDataNascimento">Data Nascimento:</label>
+                                    <input type="text" name="dataNascimento" id="cadDataNascimento" class="form-control" placeholder="DD/MM/AAAA">
+                            </div>
+                            <div class="col-md-6 col-lg-3 colunaGrid">
+                                <label for="cadCep">CEP:</label>
+                                <div class="input-group">
+                                    <input type="text" name="cep" id="cadCep" class="form-control" placeholder="00000-000">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-secondary" id="btnBuscaCep">Buscar</button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3 colunaGrid">
+                                <label for="cadCidade">Cidade:</label>
+                                <input type="text" name="cidade" id="cadCidade" class="form-control" readonly>
+                            </div>
+                            <div class="col-md-2 col-lg-1 colunaGrid">
+                                <label for="cadEstado">Estado:</label>
+                                <input type="text" name="estado" id="cadEstado" class="form-control" readonly>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 colunaGrid">
+                                <label for="cadRua">Rua:</label>
+                                <input type="text" name="rua" id="cadRua" class="form-control" readonly>
+                            </div>
+                            <div class="col-md-4 col-lg-4 colunaGrid">
+                                <label for="cadBairro">Bairro:</label>
+                                <input type="text" name="bairro" id="cadBairro" class="form-control" readonly>
+                            </div>
+                            <div class="col-md-2 col-lg-2 colunaGrid">
+                                <label for="cadNumero">Número:</label>
+                                <input type="text" name="numero" id="cadNumero" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row justify-content-end">
+                            <div class="col-lg-3 text-right colunaGrid">
+                                <button type="reset" class="btn btn-danger colunaGrid">Limpar</button>
+                                <button type="submit" class="btn btn-success colunaGrid">Salvar</button>
+                            </div>
+                        </div>
+                    </form>
+                </article>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section class="container">
+            <article class="row justify-content-between">
+                <div class="col-lg-10">
+                    <label class="footer-titulo">Trabalho com HTML 5 / CSS 3 / Frameworks</label>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <label class="footer-subtitulo">Componentes Utilizados:</label>
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="col-lg-5">
+                            <label class="footer-texto">
+                                <ul>
+                                    <li>HTML 5</li>
+                                    <li>CSS 3</li>
+                                    <li>Bootstrap 4</li>
+                                    <li>FA Icons</li>
+                                    <li>Jquery</li>
+                                </ul>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <label class="footer-titulo">Redes Sociais:</label>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <span class="fa fa-2x fa-facebook"></span>
+                            <span class="fa fa-2x fa-twitter"></span>
+                            <span class="fa fa-2x fa-instagram"></span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </footer>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+    <!-- PLUGIN JQuery - Validador de Formulários (JQuery Validation) -->
+    <script type="text/javascript" src="javascript/jquery-validation/dist/jquery.validate.min.js"></script>
+    <!-- PLUGIN JQUERY - Máscara (JQuery Mask Plugin) -->
+    <script type="text/javascript" src="javascript/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+    <!-- Geral JS -->
+    <script type="text/javascript" src="javascript/geral.js"></script>
+    <!-- Cadastro JS -->
+    <script type="text/javascript" src="javascript/cadastro.js"></script>
+</body>
+</html>

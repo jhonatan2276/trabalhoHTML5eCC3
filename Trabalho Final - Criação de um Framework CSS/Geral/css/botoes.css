@@ -1,0 +1,62 @@
+.btn {
+    border: none;
+    color: white;
+    width: auto;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-lg {
+    padding: 11px 10px; /*Topo - Lateral */
+    font-size: 16px;
+}
+
+.btn-md {
+    padding: 9px 10px; /*Topo - Lateral */
+    font-size: 14px;
+}
+
+.btn-sm {
+    padding: 7px 10px; /*Topo - Lateral */
+    font-size: 12px;
+}
+
+.btn-radius {border-radius: 15px;}
+
+.btn-leaf {border-radius: 15px 0px 15px 0px;}
+
+.btn-full-screen {width: 100%;}
+
+.btn-success {background-color: #4CAF50;}
+.btn-success:hover {background-color: #46a049;}
+
+.btn-info {background-color: #2196F3;}
+.btn-info:hover {background: #0b7dda;}
+
+.btn-warning {background-color: #ff9800;}
+.btn-warning:hover {background: #e68a00;}
+
+.btn-danger {background-color: #f44336;}
+.btn-danger:hover {background: #da190b;}
+
+.btn-default {
+    background-color: #e7e7e7;
+    color: black;
+}
+.btn-default:hover {background: #ddd;}
+
+.combo {
+    font-size: 16px;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: bold;
+}
+
+.combo-radius {border-radius: 15px;}
+
+.combo-full-screen {width: 100%;}
+
+img {
+    border-radius: 100%;
+    /*background-size: cover;*/
+}

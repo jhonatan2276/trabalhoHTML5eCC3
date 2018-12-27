@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Final - Home</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/geral.css">
+</head>
+<body>
+    <main class="container-fluid">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menuTopo" aria-controls="menuTopo" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <img src="imagens/logo-unidavi.png" width="150" height="60" class="d-inline-block">
+
+            <div class="collapse navbar-collapse" id="menuTopo">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+
+        <section class="card central">
+            <article class="card-block">
+                <h4 class="card-title">Cadastro Simples</h4>
+                <h6 class="card-subtitle">Nome e Código:</h6>
+
+                <button class="btn btn-success" data-toggle="modal" data-target="#modalCadastro">Adicionar</button>
+
+                <article>
+                    <table id="tabela-cadastro" class="table table-sm table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Nome:</th>
+                            <th>Código:</th>
+                            <th>Ações:</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </article>
+            </article>
+        </section>
+
+
+        <!-- MODAL -->
+        <section class="modal fade" id="modalCadastro" role="dialog" aria-labelledby="modalCadastro" aria-hidden="true">
+            <article class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <header class="modal-header">
+                        <h5>Cadastro</h5>
+                    </header>
+                    <div class="modal-body">
+                        <form class="form-group">
+                            <label>Nome:</label>
+                            <input id="nome" type="text" class="form-control" maxlength="15" placeholder="Nome">
+                            <label>Código:</label>
+                            <input id="telefone" type="text" class="form-control" maxlength="6" placeholder="000000">
+                        </form>
+                    </div>
+                    <footer class="modal-footer">
+                        <button id="adicionar" class="btn btn-success" data-dismiss="modal">Salvar</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                    </footer>
+                </div>
+            </article>
+        </section>
+    </main> <!-- Fim DIV container-fluid -->
+
+    <footer>
+        <section class="container">
+            <article class="row justify-content-between">
+                <div class="col-lg-10">
+                    <label class="footer-titulo">Trabalho com HTML 5 / CSS 3 / Frameworks</label>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <label class="footer-subtitulo">Componentes Utilizados:</label>
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="col-lg-5">
+                            <label class="footer-texto">
+                                <ul>
+                                    <li>HTML 5</li>
+                                    <li>CSS 3</li>
+                                    <li>Bootstrap 4</li>
+                                    <li>FA Icons</li>
+                                    <li>Jquery</li>
+                                </ul>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <label class="footer-titulo">Redes Sociais:</label>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <span class="fa fa-2x fa-facebook"></span>
+                            <span class="fa fa-2x fa-twitter"></span>
+                            <span class="fa fa-2x fa-instagram"></span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </footer>
+
+    <script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascript/geral.js"></script>
+</body>
+</html>

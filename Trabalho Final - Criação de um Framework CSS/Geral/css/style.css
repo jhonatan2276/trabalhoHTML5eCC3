@@ -1,0 +1,58 @@
+html, body{
+    margin: auto;
+    padding: 0px;
+    width: 98%;
+    font-family: Verdana, serif;
+    font-size: 10pt;
+    height: 500px;
+    background: #FFF;    
+}
+
+header{
+    background-color: #337cbb;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #888;
+}
+
+.example{
+    border: 1px solid #888;
+}
+
+.font{
+    font-family: Courier New, Courier, monospace;
+    background-color: #eee;
+    border: 1px solid #888;
+    border-top: 0px;
+    min-height: 50px;
+}
+
+textarea{
+    height: auto;
+    width: 100%;
+}
+
+code {
+    font-family: Courier New, Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+xmp{
+    padding: 0px 10px;    
+    margin: 0px;
+}
+
+p{
+    margin-bottom: 4px;
+}
+
+li{
+    padding: 0px;
+    margin: 0px;
+}
+
+footer{
+    min-height: 50px;
+}

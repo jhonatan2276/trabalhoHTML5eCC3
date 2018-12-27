@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/grid.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <section class="section">
+            <div class="container">        
+                <h3 class="table-title table-title-blue table-title-radius">Lista de Clientes</h3>
+                <table class="table table-bordered table-striped table-hoverable table-sm" cellspacing="0" cellpadding="0">                    
+                    <thead class="thead thead-gray-gradient">
+                        <tr>
+                            <th class="arrow-down">Código</th>
+                            <th>Nome</th>
+                            <th>Nascimento</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="table-col-center">1</td>
+                            <td>João da Silva</td>
+                            <td>01/01/1990</td>
+                        </tr>
+                        <tr>
+                            <td class="table-col-center">2</td>
+                            <td>Maria da Silva</td>
+                            <td>01/01/1980</td>
+                        </tr>
+                        <tr>
+                            <td class="table-col-center">3</td>
+                            <td>Joaquim</td>
+                            <td>01/01/1982</td>
+                        </tr>
+                        <tr>
+                            <td class="table-col-center">4</td>
+                            <td>Ronaldo da Silva</td>
+                            <td>01/01/1974</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                
+                $('.arrow-down').click(function() {
+                    $(this).toggleClass('arrow-up');
+                    $(this).toggleClass('arrow-down');
+                });
+            });
+        </script>
+    </body>
+</html>

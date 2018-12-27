@@ -1,0 +1,68 @@
+#menuTopo {
+    margin-left: 2%;
+}
+
+nav {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+nav > button {
+    margin-top: 2.5%;
+}
+
+.central {
+    min-height: 1000px;
+    height: 100%
+}
+
+.card-block > * {
+    margin-bottom: 10px;
+}
+
+body > footer {
+    background: linear-gradient(#DCDCDC, white);
+    border: solid 1px transparent;
+    margin-top: 1%;
+    height: auto;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+body > footer > section {
+    font-family: "Arial";
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+ ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-titulo {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-subtitulo {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer-texto {
+    font-size: 14px;
+}
+
+/* PRODUTOS */
+
+/* Trecho para alinhamento da Grid no Mobile */
+.primeiraLinhaGrid {
+    margin-top: -3%;
+}
+
+.colunaGrid {
+   margin-top: 3%;
+}
+/* Fim alinhamento Grid Mobile */
